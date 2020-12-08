@@ -33,9 +33,11 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package java.util.concurrent.locks;
+package tongji.util.concurrent;
 import java.util.concurrent.TimeUnit;
 import java.util.Collection;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
 
 /**
  * A reentrant mutual exclusion {@link Lock} with the same basic
