@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d85de2de-0afe-4169-930b-97f98ea26eaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tongji/util/thread/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="d85de2de-0afe-4169-930b-97f98ea26eaf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,6 +141,7 @@
       <workItem from="1606975336115" duration="2071000" />
       <workItem from="1607393894136" duration="736000" />
       <workItem from="1607406017436" duration="6776000" />
+      <workItem from="1607821230671" duration="2000" />
     </task>
     <servers />
   </component>
