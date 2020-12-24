@@ -1,15 +1,29 @@
 package tongji.util.thread;
 
 
+public class Main {
+    static class SynAddRunnable implements Runnable {
+        int a, b;
 
-public class Main{
-    private static final int _1MB = 1024 * 1024;
+        public SynAddRunnable(int a, int b) {
+            this.a = a;
+            this.b = b;
+        }
+
+        @Override
+        public void run() {
+            synchronized (Integer.valueOf(a)) {
+                synchronized (Integer.valueOf(b)) {
+                    System.out.println(a + b);
+                }
+            }
+        }
+    }
 
     public static void main(String[] args) {
-        byte[] allocation1, allocation2, allocation3, allocation4;
-        allocation1 = new byte[2 * _1MB];
-        allocation2 = new byte[2 * _1MB];
-        allocation3 = new byte[2 * _1MB];
-        allocation4 = new byte[4 * _1MB]; //出现Minor GC
+        for (int i = 0; i < 100; i++) {
+            new Thread(new SynAddRunnable(1, 2)).start();
+            new Thread(new SynAddRunnable(2, 1)).start();
+        }
     }
 }
