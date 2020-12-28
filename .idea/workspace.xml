@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d85de2de-0afe-4169-930b-97f98ea26eaf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/tongji/util/thread/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tongji/util/thread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tongji/ConstClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tongji/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tongji/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tongji/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tongji/thread/Thread1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tongji/util/thread/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../code_home_temp/SSH" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Cloud_Computing/cloudCalculate" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -46,13 +51,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CreateThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tongji.util.thread.CreateThread" />
+  <component name="RunManager" selected="Application.Thread1">
+    <configuration name="CreateThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.util.thread.CreateThread" />
       <module name="JUC_Analysis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tongji.util.thread.*" />
+          <option name="PATTERN" value="java.util.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,11 +66,11 @@
       </method>
     </configuration>
     <configuration name="CreateThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java.util.thread.CreateThread" />
+      <option name="MAIN_CLASS_NAME" value="tongji.util.thread.CreateThread" />
       <module name="JUC_Analysis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.util.thread.*" />
+          <option name="PATTERN" value="tongji.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +92,12 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tongji.util.thread.Main" />
+      <option name="MAIN_CLASS_NAME" value="tongji.Main" />
       <module name="JUC_Analysis" />
       <option name="VM_PARAMETERS" value="-Xms100m -Xmx100m -XX:+UseSerialGC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tongji.util.thread.*" />
+          <option name="PATTERN" value="tongji.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,18 +118,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Thread1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tongji.thread.Thread1" />
+      <module name="JUC_Analysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tongji.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CreateThread" />
-      <item itemvalue="Application.CreateThread (1)" />
       <item itemvalue="Application.HoldLockThread" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Problem2" />
+      <item itemvalue="Application.Thread1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Thread1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HoldLockThread" />
-        <item itemvalue="Application.CreateThread (1)" />
         <item itemvalue="Application.CreateThread" />
         <item itemvalue="Application.Problem2" />
       </list>
@@ -155,7 +173,9 @@
       <workItem from="1608164720351" duration="5827000" />
       <workItem from="1608342838106" duration="2256000" />
       <workItem from="1608620470945" duration="1640000" />
-      <workItem from="1608773815026" duration="2648000" />
+      <workItem from="1608773815026" duration="3247000" />
+      <workItem from="1608856537276" duration="5331000" />
+      <workItem from="1609035599406" duration="6401000" />
     </task>
     <servers />
   </component>
@@ -179,42 +199,42 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="544" y="298" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1606976224829" />
-    <state x="549" y="190" key="FileChooserDialogImpl" timestamp="1608347865820">
+    <state x="549" y="190" key="FileChooserDialogImpl" timestamp="1608861078821">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1608347865820" />
-    <state width="1493" height="285" key="GridCell.Tab.0.bottom" timestamp="1608776227631">
+    <state x="549" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1608861078821" />
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1609048812118">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="285" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608776227631" />
-    <state width="1493" height="285" key="GridCell.Tab.0.center" timestamp="1608776227631">
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609048812118" />
+    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1609048812118">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="285" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1608776227631" />
-    <state width="1493" height="285" key="GridCell.Tab.0.left" timestamp="1608776227631">
+    <state width="1493" height="274" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1609048812118" />
+    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1609048812118">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="285" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1608776227631" />
-    <state width="1493" height="285" key="GridCell.Tab.0.right" timestamp="1608776227631">
+    <state width="1493" height="274" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1609048812118" />
+    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1609048812118">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="285" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1608776227631" />
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1608622208915">
+    <state width="1493" height="274" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1609048812118" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1609048812114">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608622208915" />
-    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1608622208915">
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609048812114" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1609048812114">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1608622208915" />
-    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1608622208915">
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1609048812114" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1609048812114">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1608622208915" />
-    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1608622208915">
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1609048812114" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1609048812114">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1608622208915" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1609048812114" />
     <state x="249" y="10" key="SettingsEditor" timestamp="1606874639881">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -235,5 +255,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="425" y="200" width="672" height="677" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1606815112541" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1609038526400">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1609038526400" />
   </component>
 </project>
